@@ -32,7 +32,7 @@
 
 
 
-function check_database_is_installed($c) {
+function check_database_is_installed() {
 	$c = mysqli_connect("localhost", "root", "teste123", "carros");
 	$installed_ = (mysqli_query($c, 'SELECT 1 FROM carros LIMIT 1;')=="") ? false : true;
 	if(!$installed_) {
