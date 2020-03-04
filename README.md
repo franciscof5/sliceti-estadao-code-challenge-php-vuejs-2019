@@ -15,7 +15,7 @@ Para simplificar a entrega e diminuir o tempo de configuração e facilitar o de
 Colocar pasta na raíz do apache ou onde tiver PHP habilitado, criar o banco de dados CARROS e configurar a conexão no arquivo /api/lemon_mysql.php. A instalação verifica o primeiro acesso, cria e popula as tabelas pelo arquivo table_carros_plain_sql_builder_seeder.sql
 
 ```
-api/lemon_mysql.php Configurar acessos
+api/lemon_mysql.php Configurar acessos (obs: em 2 funções diferentes)
 ```
 
 ## Front-End
